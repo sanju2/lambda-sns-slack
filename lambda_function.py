@@ -2,9 +2,9 @@ import urllib3
 import json
 http = urllib3.PoolManager() 
 def lambda_handler(event, context): 
-    url = "https://hooks.slack.com/services/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"    
+    url = ""    
     msg = {
-        "channel": "aws-notifications",
+        "channel": "",
         "username": "WEBHOOK_USERNAME",
         "text": event['Records'][0]['Sns']['Message'],
         "icon_emoji" : ""
