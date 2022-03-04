@@ -1,1 +1,1 @@
-# README.md
+# Read More : https://lsanjeewa947.medium.com/create-slack-notifications-for-aws-cloudwatch-alarms-918e7bfd2ba5
